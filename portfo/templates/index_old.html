@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link href="static/style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='bolt.ico') }}"
+    />
+  </head>
+  <body>
+    Hello, {{ name }}. My Post Id {{ post_id }}
+    <script type="text/javascript" src="static/script.js"></script>
+  </body>
+</html>
